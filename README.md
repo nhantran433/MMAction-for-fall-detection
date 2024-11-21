@@ -1,14 +1,18 @@
-### Setup
-Environment
+### Environment Setup
 ```
 python -m venv .env
 .env/Script/activate
 ```
-Installation
+### Installation
 ```
 pip install -r requirements.txt
 ```
-Start
+### Train MMAction on custom dataset
+Download pre-trained checkpoint at [MMAction2 Model Zoo](https://mmaction2.readthedocs.io/en/latest/model_zoo/recognition.html)
 ```
-python app.py
+python train.py
+```
+### Inference
+```
+python main.py
 ```
